@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     if (mode === 'light') {
-      document.body.style.backgroundColor = '#80ed99';
+      document.body.style.backgroundColor = 'white';
     } else {
       document.body.style.backgroundColor = '#030a14';
     }
